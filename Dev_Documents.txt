@@ -1,0 +1,14 @@
+To Run the project on your computer:
+** make sure to install git, pycharm, docker, python
+all what you need is:
+ ** pip install virtualenv
+ ** virtualenv venv
+ ** venv\scripts\activate
+
+ ** get the project from git.
+ ** git clone **** TODO
+
+ ** go to the folder that contains the application and print this command
+docker build -t postapp:latest .
+docker image ls
+docker run --name postapp -d -p 8000:8000 postapp:latest
